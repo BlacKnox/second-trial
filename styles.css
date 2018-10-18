@@ -1,0 +1,39 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output,
+ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body{font: 72 Courier New;color:#01A5E1;text-align:center;}
+.header{width: 100%; height: 70px; background:black; }
+.lbar{width:20%; height:auto; background: black;float: left; }
+.content{ width:80%; height:auto; background: #3D3F40;float: right; }
+.content p{line-height:1.4;}
+.footer{width:100%; height:30px; background:#181915 ; padding: 0px 25px 0px 25px; clear: both; }
+h1{color: #01A5E1;}
+h5{text-decoration: underline;text-decoration-color: orange;}
+strong{text-decoration: underline;}
+p{margin:0 10px 10px}
+div#menu{background-color: #282923;text-align: center;width: 100%; height: 30px;}
+.menu >li{display: inline-block;padding:0px 25px 0px 25px;}
+.menu > li > a{text-decoration:none;color:#01A5E1; }
+.menu > li:hover{background:#01A5E1; position: transition: all 0.45s;text-decoration-color: #000000;}
+.menu > li > a:hover{color: #000000;text-decoration: underline;text-decoration-style:dashed;}
+
+#col-container{display: table;width: 100%;}
+#col{display: table-cell;}
